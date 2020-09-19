@@ -1,0 +1,67 @@
+
+
+
+
+
+:root {
+  --light-gray: #EEEEEE;
+  --gray: #888888;
+  --light-red: #FB565A;
+  --red: #E74246;
+  --bright-red: #D7373B;
+  --black: #000000;
+  --dark-gray: #283136;
+  --icon-gray: #E1E1E1;
+  --light-green: #00CA74;
+  --green: #00BC6C;
+  --dark-green: #00AA62;
+  --light-yellow: #EFC84A;
+  --yellow; #EAB534;
+  --dark-yellow: #E5A722;
+
+}
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #888888;
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #EEEEEE;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #EEEEEE;
+  color: #FB565A
+}
