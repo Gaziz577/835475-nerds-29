@@ -28,11 +28,12 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
-  background-color: #888888;
-  background-image: url("../img/bg.jpg");
+  font-weight: 400;
+  style: normal;
+  color: var(--black);
+  text-transform: none;
+  background-color: #E5A722;
+  background-image: url(".jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -56,12 +57,105 @@ img {
   list-style: none;
 }
 
-.site-navigation a {
-  color: #000000;
-}
-
 .site-navigation a:hover,
 .site-navigation a:focus {
+  color: #FB565A;
+}
+.basket-navigation:hover,
+.basket-navigation:focus {
+  color: #FB565A;
+}
+.more-info:hover,
+.more-info:focus {
+  background-color: #E74246;
+}
+/* Features */
+.features, {
   background-color: #EEEEEE;
-  color: #FB565A
+}
+
+.features h2 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.features a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+/* Products*/
+.product-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.product-item a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.order-web:hover,
+.order-web:focus {
+  background-color: #E74246;
+}
+.order-app:hover,
+.order-app:focus {
+  background-color: #00BC6C;
+}
+.order-presentation:hover,
+.order-presentation:focus {
+  background-color: #E5A722;
+}
+/* About Nerds*/
+.about h3 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.about h4, .percent h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+/* Partners */
+.academy-hover {
+  background: url("img/logo-1 2.png");
+}
+.barbershop-hover {
+  background: url("img/logo-2 2.png");
+}
+.pink-hover {
+  background: url("img/logo-3 2.png");
+}
+.mishka-hover {
+  background: url("img/logo-4 2.png");
+}
+
+/* Contacts */
+.contacts h4 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.contacts p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* Main footer */
+.footer-social h3 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.social-button:hover,
+.social-button:focus {
+  background-color: #D7373B;
 }
